@@ -19,12 +19,14 @@ public class Question4
      
     Scanner in = new Scanner(System.in);
     int n = in.nextInt();
+    int count = n;
     for(int i = 0; i<n; i++)
     {
-      for (int x =0; x<n; x++)
+      for (int x =0; x<count; x++)
       {
         System.out.print("*");
       }
+      count--;
       System.out.println();
     }
   }
