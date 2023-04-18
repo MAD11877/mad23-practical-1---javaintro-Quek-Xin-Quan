@@ -18,6 +18,14 @@ public class Question4
      */
      
     Scanner in = new Scanner(System.in);
-    
+    int n = in.nextInt();
+    for(int i = 0; i<n; i++)
+    {
+      for (int x =0; x<=i; x++)
+      {
+        System.out.print("*");
+      }
+      System.out.println();
+    }
   }
 }
