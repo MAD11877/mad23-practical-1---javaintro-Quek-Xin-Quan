@@ -21,7 +21,7 @@ public class Question4
     int n = in.nextInt();
     for(int i = 0; i<n; i++)
     {
-      for (int x =0; x<=i; x++)
+      for (int x =0; x<n; x++)
       {
         System.out.print("*");
       }
